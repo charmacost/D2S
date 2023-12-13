@@ -1,5 +1,8 @@
-* {
-    margin: 0; /*Number will change*/
+*{
+    /*NUMBERS BELOW MAY CHANGE*/
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #OpeningCard{
@@ -8,4 +11,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
+    /*CHANGE ABOVE TO SHORTHAND BACKGROUND: */
+    /*LOOK INTO BLURRED BACKGROUND*/
 }
