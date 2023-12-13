@@ -27,7 +27,7 @@ else if (monthDay == 3 || monthDay == 23)
 {
     monthDay += "rd";
 }
-else if ((monthDay >= 4 && monthDay <= 20) || monthDay >=24 && monthDay <=30)
+else if ((monthDay >= 4 && monthDay <= 20) || (monthDay >=24 && monthDay <=30))
 {
     monthDay += "th"
 }
