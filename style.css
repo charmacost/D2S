@@ -1,12 +1,32 @@
+/*MULTI*/
 *{
-    /*NUMBERS BELOW MAY CHANGE*/
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+h1,h2,h3,h5,p,a{
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+/*HEADER*/
+header{
+    background-color: aliceblue;
+    padding-bottom: 15px;
+}
+
+/*DIV - BODY*/
 #OpeningCard{
+    background-image: url("https://imguscdn.gamespress.com/cdn/files/Bungie/2023/11/281801-f958c6ce/2023_S23_Season_of_the_Wish_Launch_Press_Kit_Key_Art_16-9_EN_LARGE-2.jpg?otf=y&lightbox=y&ex=2024-02-01+03%3A00%3A00&sky=626d7de7f00041b9fd4cf917ceeb7b43c31c7d7635649d7ef0aef0fcd12f62e0&w=1024&maxheight=4096&mode=pad&format=jpg");
+}
+
+#EventTemp{
     background-image: url("https://imguscdn.gamespress.com/cdn/files/Bungie/2023/12/121441-dff196fe/2023_Dawning_Press_Kit_Key_Art_16x9.jpg?otf=y&lightbox=y&ex=2024-02-01+03%3A00%3A00&sky=8fd93982d8fff5f572234092be870f81614bbbe42b73bd262cced33008949b59&w=1024&maxheight=4096&mode=pad&format=jpg");
+}
+
+#OpeningCard,#EventTemp{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +35,9 @@
     /*LOOK INTO BLURRED BACKGROUND*/
 }
 
-h1,h2,h3,p{
+/*FOOTER - BODY*/
+footer{
+    padding: 20px;
     text-align: center;
-    color:white;
+    background-color: aliceblue;
 }
