@@ -14,3 +14,8 @@
     /*CHANGE ABOVE TO SHORTHAND BACKGROUND: */
     /*LOOK INTO BLURRED BACKGROUND*/
 }
+
+h1,h2,h3,p{
+    text-align: center;
+    color:black;
+}
