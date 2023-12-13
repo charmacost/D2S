@@ -44,11 +44,11 @@ document.getElementById("DateTest").onclick = function()
 }
 
 //rat
-document.getElementById("rat").style.display = "none";
+document.getElementById("ratAlign").style.display = "none";
 document.getElementById("cannon").onclick = function()
 {
     document.getElementById("cannon").style.display = "none";
-    document.getElementById("rat").style.display = "inline-block";
-    document.getElementById("rat").height = 315;
-    document.getElementById("rat").width = 560;
+    document.getElementById("ratAlign").style.display = "block";
+    document.getElementById("ratAlign").style.textAlign = "center";
+    document.getElementById("rat").width = "70%";
 }
