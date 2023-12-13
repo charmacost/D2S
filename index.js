@@ -37,8 +37,7 @@ console.log(monthDay);
 let fullDate = day + ", " + month + " " +  monthDay
 console.log(fullDate);
 
-//let weekday = time.
-
+//Output the date
 document.getElementById("DateTest").onclick = function()
 {
     document.getElementById("DateTest").innerHTML = fullDate;
