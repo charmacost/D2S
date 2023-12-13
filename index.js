@@ -42,3 +42,13 @@ document.getElementById("DateTest").onclick = function()
 {
     document.getElementById("DateTest").innerHTML = fullDate;
 }
+
+//rat
+document.getElementById("rat").style.display = "none";
+document.getElementById("cannon").onclick = function()
+{
+    document.getElementById("cannon").style.display = "none";
+    document.getElementById("rat").style.display = "inline-block";
+    document.getElementById("rat").height = 315;
+    document.getElementById("rat").width = 560;
+}
