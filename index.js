@@ -42,4 +42,3 @@ document.getElementById("DateTest").onclick = function()
 {
     document.getElementById("DateTest").innerHTML = fullDate;
 }
-
