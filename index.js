@@ -1,1 +1,1 @@
-document.title() = "D2S"
+document.title = "D2S"
