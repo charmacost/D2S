@@ -1,5 +1,5 @@
 # [D2S](charmacost.github.io/D2S)
->**This will change a LOT so keep that in mind**
+>**This will change a LOT so keep that in mind...**
 
 # Welcome! 
 D2S is my *new* overly-ambitious project which will likely never get finished!
