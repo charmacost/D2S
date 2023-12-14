@@ -50,5 +50,4 @@ document.getElementById("cannon").onclick = function()
     document.getElementById("cannon").style.display = "none";
     document.getElementById("ratAlign").style.display = "block";
     document.getElementById("ratAlign").style.textAlign = "center";
-    document.getElementById("rat").width = "70%";
 }
