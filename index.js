@@ -38,16 +38,24 @@ let fullDate = day + ", " + month + " " +  monthDay
 console.log(fullDate);
 
 //Output the date
-document.getElementById("DateTest").onclick = function()
-{
-    document.getElementById("DateTest").innerHTML = "The date is " + fullDate;
-}
+    document.getElementById("DateTest").onclick = function()
+    {
+        if(document.getElementById("DateTest").innerHTML == "Click/Tap for Current Date")
+        {
+            document.getElementById("DateTest").innerHTML = "The date is " + fullDate + " (Click/Tap to reset)";
+        }
+        else
+        {
+            document.getElementById("DateTest").innerHTML = "Click/Tap for Current Date";
+        }
+    }
 
 //rat
-document.getElementById("ratAlign").style.display = "none";
+document.getElementById("ratAlign").style.display = "none"; //PROBLEM - RAT OVERFLOWING VERTICALLY
 document.getElementById("cannon").onclick = function()
 {
     document.getElementById("cannon").style.display = "none";
-    document.getElementById("ratAlign").style.display = "block";
+    document.getElementById("ratAlign").style.display = "inline-block";
     document.getElementById("ratAlign").style.textAlign = "center";
+    document.getElementById("OpeningCard").style.height = "65%";
 }

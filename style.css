@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 35px;
-    color:white;
+    color:black;
 }
 
 h1,h2,h3,h5,p{
@@ -36,13 +36,18 @@ li{
 
 li a
 {
-    color: white;
-    text-decoration: white;
+    text-decoration: none;
     display: block;
     padding: 7.5px
 }
 
 /*DIV - BODY*/
+
+html,body{
+    height:100%;
+    /*width:90%; mess around with width property*/
+}
+
 #OpeningCard{
     background-image: url("https://imguscdn.gamespress.com/cdn/files/Bungie/2023/11/281801-f958c6ce/2023_S23_Season_of_the_Wish_Launch_Press_Kit_Key_Art_16-9_EN_LARGE-2.jpg?otf=y&lightbox=y&ex=2024-02-01+03%3A00%3A00&sky=626d7de7f00041b9fd4cf917ceeb7b43c31c7d7635649d7ef0aef0fcd12f62e0&w=1024&maxheight=4096&mode=pad&format=jpg");
 }
@@ -56,8 +61,15 @@ li a
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
+    height:32%;
     /*CHANGE ABOVE TO SHORTHAND BACKGROUND: */
     /*LOOK INTO BLURRED BACKGROUND*/
+}
+
+#ratAlign{
+    width:100%;
+    height:70%;
+    display:inline-block;
 }
 
 /*FOOTER - BODY*/
