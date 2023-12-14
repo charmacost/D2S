@@ -9,7 +9,7 @@ let day = weekday[time.getDay()];
 console.log(day);
 
 //For month
-let abbMonth = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+let abbMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 let month = abbMonth[time.getMonth()];
 console.log(month);
 
@@ -40,7 +40,7 @@ console.log(fullDate);
 //Output the date
 document.getElementById("DateTest").onclick = function()
 {
-    document.getElementById("DateTest").innerHTML = fullDate;
+    document.getElementById("DateTest").innerHTML = "The date is " + fullDate;
 }
 
 //rat
