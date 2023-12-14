@@ -12,22 +12,56 @@
             text-align: center;
         }
 
-        h1{
+        html,body{
+            height:100%;
+        }
+
+        #h1{
             background-color: grey;
             padding:25px;
         }
 
-        p{
+        #pC{
             background-color: red;
+            padding:50px;
+            width: 60%;
+            margin:auto; 
+        }
+
+        #p1,#p2{
+            height:80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            padding:15px;
+            margin:20px;
+            border: solid white;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
             padding:25px;
-            width: 80%;
-            margin:auto;
         }
     </style>
 
 </head>
 <body>
-    <h1>SHHHHH</h1>
-    <P>some sample text</P>
+    <div id="h1">
+        <h1>SHHHHH</h1>
+        <p>Don't tell anyone</p>
+    </div>
+    <div id="pC">
+        <div id="p1">
+            <P>Nightfall:</P>
+        </div>
+        <div id="p2">
+            <P>some nightfall info</P>
+        </div>
+    </div>
+    <footer>
+        :)
+    </footer>   
 </body>
 </html>
