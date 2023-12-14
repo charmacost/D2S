@@ -1,4 +1,4 @@
-# [Destiny 2 Strategies](charmacost.github.io/D2S)
+# [Destiny 2 Strategies](https://charmacost.github.io/D2S)
 >**This will change a LOT so keep that in mind...**
 
 # Welcome! 
